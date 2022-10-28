@@ -1,38 +1,52 @@
 body {
   letter-spacing: -0.15em;
   font-family: 'Libre Baskerville', serif;
+  background-color: black;
 }
 
 h1 {
   color: black;
   font-weight: bolder;
-  font-size: 50px
+}
+
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.1); 
 }
 
 .title {
-  border: 3px solid black;
   z-index: 1;
-  color: whitesmoke;
-  font-size: 50px;
+  color: #ffffff;
+  font-size: 130px;
+  
 }
+
+.fittedimage {
+  height: 720px;
+  width: 550px;
+}
+
 
 .container {
   position: relative;
-  text-align: center;
   color: white;
+  white-space: nowrap;
+  text-align: center;
 }
 
 .centered {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-
+  vertical-align: baseline;
+  margin-left: auto;
+  margin-top: auto;
+  left: 13%;
+  top: 30%;
 }
 
 p {
   font-size: 20px;
-  font-family:
   color: white;
 }
