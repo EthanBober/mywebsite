@@ -1,8 +1,22 @@
 body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   letter-spacing: -0.15em;
   font-family: 'Libre Baskerville', serif;
   background-color: black;
 }
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+
 
 h1 {
   color: black;
